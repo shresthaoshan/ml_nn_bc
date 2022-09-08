@@ -17,6 +17,20 @@ So, we have chosen the project **“Neural Network implementation for Breast Can
   
 ---
 
+## API Server
+
+To start the local API server:
+
+```sh
+uvicorn main:app
+```
+
+The terminal command above will start a local API server which will be accessible at [http://localhost:8000](http://localhost:8000).
+
+Go to *[/docs](http://localhost:8000/docs)* to access interactive API client.
+
+---
+
 ## Project Members
 - [Oshan Shrestha](https://oshanshrestha.com.np)
 - [Melina Shakya]()
